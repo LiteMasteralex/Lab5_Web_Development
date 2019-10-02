@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Console, monospace;
+	color: white;
+	background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+	background-attachment: fixed;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.itemList {
+	width: 45%;
+	margin-top: 1%;
+}
+.listItem {
+	list-style-type: none;
+}
+.itemBox {
+	border: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	border-radius: 10px;
+	padding: 3%;
+	margin-top: 2%;
+	background-color: #b02515;
+}
+.itemTitle {
+	margin: 2% 0 2% 2%;
+}
+.checkedTitle {
+	text-decoration: line-through;
+	background-color: #ad4d42;
+}
