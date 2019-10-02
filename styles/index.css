@@ -9,6 +9,12 @@ body {
 	background-image: linear-gradient(to bottom, #315481, #918e82 100%);
 	background-attachment: fixed;
 }
+button {
+	border-radius: 5px;
+	margin-left: 5px;
+	font-family: Arial, Sans-serif;
+	background-color: #81f0af;
+}
 .container {
 	display: flex;
 	align-items: center;
